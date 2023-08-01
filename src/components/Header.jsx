@@ -29,12 +29,12 @@ const Header = () => {
         <ul className="mt-20">
           <li>
             <a href="#" className="text-4xl block text-center p-4">
-              Home
+              Inicio
             </a>
           </li>
           <li>
             <a href="#" className="text-4xl block text-center p-4">
-              Streams
+              Biblioteca
             </a>
           </li>
           <li>
@@ -42,12 +42,12 @@ const Header = () => {
               href="#"
               className="text-4xl text-[#E58D27] block p-4 text-center"
             >
-              Game store
+              Ofertas
             </a>
           </li>
           <li>
             <a href="#" className="text-4xl block text-center p-4">
-              News
+              Novedades
             </a>
           </li>
         </ul>
@@ -56,22 +56,22 @@ const Header = () => {
       <ul className="hidden lg:flex items-center gap-6">
         <li>
           <a href="#" className="hover:text-[#E58D27] transition-colors">
-            Home
+            Inicio
           </a>
         </li>
         <li>
           <a href="#" className="hover:text-[#E58D27] transition-colors">
-            Streams
+            Biblioteca
           </a>
         </li>
         <li>
           <a href="#" className="text-[#E58D27] transition-colors">
-            Game store
+            Ofertas
           </a>
         </li>
         <li>
           <a href="#" className="hover:text-[#E58D27] transition-colors">
-            News
+            Novedades
           </a>
         </li>
       </ul>

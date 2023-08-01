@@ -21,7 +21,7 @@ const Sidebar = () => {
       >
         {/* Search */}
         <div className="bg-[#362C29]/50 rounded-2xl p-4 mb-4">
-          <h4 className="mb-4 text-white text-lg">Categories</h4>
+          <h4 className="mb-4 text-white text-lg">Categorias</h4>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
               <input type="checkbox" id="indy" className="accent-[#E58D27]" />
@@ -33,7 +33,7 @@ const Sidebar = () => {
                 id="Adventure"
                 className="accent-[#E58D27]"
               />
-              <label htmlFor="Adventure">Adventure</label>
+              <label htmlFor="Adventure">Aventura</label>
             </div>
             <div className="flex items-center gap-2">
               <input type="checkbox" id="MMO" className="accent-[#E58D27]" />
@@ -45,7 +45,7 @@ const Sidebar = () => {
                 id="Casual Game"
                 className="accent-[#E58D27]"
               />
-              <label htmlFor="Casual Game">Casual Game</label>
+              <label htmlFor="Casual Game">Juegos Casuales</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -53,7 +53,7 @@ const Sidebar = () => {
                 id="Strategy"
                 className="accent-[#E58D27]"
               />
-              <label htmlFor="Strategy">Strategy</label>
+              <label htmlFor="Strategy">Estrategia</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -61,7 +61,7 @@ const Sidebar = () => {
                 id="Simulator"
                 className="accent-[#E58D27]"
               />
-              <label htmlFor="Simulator">Simulator</label>
+              <label htmlFor="Simulator">Simuladores</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -69,7 +69,7 @@ const Sidebar = () => {
                 id="Sports Game"
                 className="accent-[#E58D27]"
               />
-              <label htmlFor="Sports Game">Sports Game</label>
+              <label htmlFor="Sports Game">Juegos de deportes</label>
             </div>
             <div className="flex items-center gap-2">
               <input
@@ -77,10 +77,10 @@ const Sidebar = () => {
                 id="Action Game"
                 className="accent-[#E58D27]"
               />
-              <label htmlFor="Action Game">Action Game</label>
+              <label htmlFor="Action Game">Juegos de accion</label>
             </div>
           </div>
-          <h4 className="my-4 text-white text-lg">Platforms</h4>
+          <h4 className="my-4 text-white text-lg">Plataformas</h4>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
               <input type="checkbox" id="PC" />
@@ -119,7 +119,7 @@ const Sidebar = () => {
               <label htmlFor="Nintendo Switch">Nintendo Switch</label>
             </div>
           </div>
-          <h4 className="my-4 text-white text-lg">Price</h4>
+          <h4 className="my-4 text-white text-lg">Precio</h4>
           <form className="flex flex-col gap-8">
             <div className="flex items-center justify-between gap-4">
               <div className="relative">
@@ -142,7 +142,7 @@ const Sidebar = () => {
               type="submit"
               className="bg-[#E58D27] text-black font-bold rounded-full w-full p-3 hover:-translate-y-1 transition-all duration-200"
             >
-              Apply Filter
+              Aplicar filtro
             </button>
           </form>
         </div>
